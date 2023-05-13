@@ -16,13 +16,13 @@ The trajectory of the distance traveled must adhere to the following criteria:
 2. Path shape: The path followed from the start point to the end point should resemble a non-straight line.
 
 ## Author
-### Leader:[Ahmed Salah](https://github.com/youssefashmawy)
-### [Youssef Wael](https://github.com/youssefashmawy)
-### [Muhammad Mahmoud](https://github.com/skipcl4ss)
-### [Youssef Ehab](https://github.com/Youssef231001)
-### [Mohamed Hany](https://github.com/Mohamed-Hany-123)
-### [kebrianous Wagih](https://github.com/kebrianous-wagih)
-### [Mahmoud Hassan](https://github.com/MahmoudHassan72)
-### [Ahmed Ibrahim](https://github.com/ahmeedibrahim)
-### [Saied Mohamed](https://github.com/Saa3ed)
-### [Ziad Fikry](https://github.com/ZiadFikry)
+- Leader: [Ahmed Salah](https://github.com/Ahmed-Salah-312)
+- [Youssef Wael](https://github.com/youssefashmawy)
+- [Muhammad Mahmoud](https://github.com/skipcl4ss)
+- [Youssef Ehab](https://github.com/Youssef231001)
+- [Mohamed Hany](https://github.com/Mohamed-Hany-123)
+- [kebrianous Wagih](https://github.com/kebrianous-wagih)
+- [Mahmoud Hassan](https://github.com/MahmoudHassan72)
+- [Ahmed Ibrahim](https://github.com/ahmeedibrahim)
+- [Saied Mohamed](https://github.com/Saa3ed)
+- [Ziad Fikry](https://github.com/ZiadFikry)
