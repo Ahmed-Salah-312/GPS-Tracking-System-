@@ -2,7 +2,9 @@
 #include "uart.h"
 #include "gps.h"
 #include "dist.h"
-
+#include <stdlib.h>
+#include "stdio.h"
+#include <math.h>
 
 #define total_path_distance 100    
 
@@ -27,7 +29,19 @@ int main(void){
 		distance_travelled = distance_travelled + ds;
 		previous_latitude = current_latitude;
 		previous_longitude = current_longitude;
+		current_to_end_distance = abs(total_path_distance - distance_travelled) ;
+		//sending data to ardunio
+		uart_send((char)distance_travelled);
 		
+		if (current_to_end_distance >= 5)
+			RGB_Output (RED);                //red led
+		
+		else if (current_to_end_distance < 5 && current_to_end_distance >1){
+			RGB_Output (YELLOW);                //yellow led
+		}
+		else if (current_to_end_distance < 1 )
+			RGB_Output (GREEN);       					//green led
+		 
 		
 	}
 		
