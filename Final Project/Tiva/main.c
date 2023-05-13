@@ -34,13 +34,13 @@ int main(void){
 		uart_send((char)distance_travelled);
 		
 		if (current_to_end_distance >= 5)
-			RGB_Output (RED);                //red led
+			RGB_Output (RED);                		//red led
 		
 		else if (current_to_end_distance < 5 && current_to_end_distance >1){
-			RGB_Output (YELLOW);                //yellow led
+			RGB_Output (YELLOW);             	        //yellow led
 		}
 		else if (current_to_end_distance < 1 )
-			RGB_Output (GREEN);       					//green led
+			RGB_Output (GREEN);       			//green led
 		 
 		
 	}
