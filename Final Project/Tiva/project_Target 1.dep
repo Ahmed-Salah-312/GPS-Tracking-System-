@@ -1,0 +1,25 @@
+Dependencies for Project 'project', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_TM4C123.s)(0x6458B6FA)(--cpu Cortex-M4.fp --pd "__EVAL SETA 1" -g --apcs=interwork -I E:\ARM\RV31\INC-I E:\ARM\CMSIS\Include-I E:\ARM\Inc\TI\TM4C123--list .\startup_tm4c123.lst --xref -o .\startup_tm4c123.o --depend .\startup_tm4c123.d)
+F (.\dist.c)(0x64591AE4)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I E:\ARM\RV31\INC-I E:\ARM\CMSIS\Include-I E:\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\dist.o --omf_browse .\dist.crf --depend .\dist.d)
+I (E:\ARM\ARMCC\include\math.h)(0x51C819B4)
+F (.\gpio.c)(0x645907B6)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I E:\ARM\RV31\INC-I E:\ARM\CMSIS\Include-I E:\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\gpio.o --omf_browse .\gpio.crf --depend .\gpio.d)
+I (tm4c123gh6pm.h)(0x6453FF60)
+F (.\gps.c)(0x6458F174)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I E:\ARM\RV31\INC-I E:\ARM\CMSIS\Include-I E:\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\gps.o --omf_browse .\gps.crf --depend .\gps.d)
+I (uart.h)(0x645928B6)
+I (E:\ARM\ARMCC\include\string.h)(0x51C819B4)
+I (E:\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+F (.\main.c)(0x645F82CA)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I E:\ARM\RV31\INC-I E:\ARM\CMSIS\Include-I E:\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\main.o --omf_browse .\main.crf --depend .\main.d)
+I (gpio.h)(0x645D2908)
+I (uart.h)(0x645928B6)
+I (gps.h)(0x6457D568)
+I (dist.h)(0x6456D956)
+I (E:\ARM\ARMCC\include\stdlib.h)(0x51C819B4)
+I (E:\ARM\ARMCC\include\stdio.h)(0x51C819B4)
+I (E:\ARM\ARMCC\include\math.h)(0x51C819B4)
+F (.\uart.c)(0x645C15BF)(-c --cpu Cortex-M4.fp -D__EVAL -g -O0 --apcs=interwork -I E:\ARM\RV31\INC-I E:\ARM\CMSIS\Include-I E:\ARM\Inc\TI\TM4C123-DTM4C123GH6PM-o .\uart.o --omf_browse .\uart.crf --depend .\uart.d)
+I (tm4c123gh6pm.h)(0x6453FF60)
+F (.\dist.h)(0x6456D956)()
+F (.\gpio.h)(0x645D2908)()
+F (.\gps.h)(0x6457D568)()
+F (.\tm4c123gh6pm.h)(0x6453FF60)()
+F (.\uart.h)(0x645928B6)()
