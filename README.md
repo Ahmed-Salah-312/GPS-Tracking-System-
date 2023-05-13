@@ -20,7 +20,7 @@ The trajectory of the distance traveled must adhere to the following criteria:
 - [Youssef Wael](https://github.com/youssefashmawy)
 - [Muhammad Mahmoud](https://github.com/skipcl4ss)
 - [Youssef Ehab](https://github.com/Youssef231001)
-- [Mohamed Hany](https://github.com/Mohamed-Hany-123)
+- [Mohamed Hany](https://github.com/mohamed-hany1016)
 - [kebrianous Wagih](https://github.com/kebrianous-wagih)
 - [Mahmoud Hassan](https://github.com/MahmoudHassan72)
 - [Ahmed Ibrahim](https://github.com/ahmeedibrahim)
