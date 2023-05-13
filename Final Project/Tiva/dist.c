@@ -18,5 +18,12 @@ float currentLongRad = ToRad(currentLong/100);
 float currentLatRad = ToRad(currentLat/100);
 float destLongRad = ToRad(destLong/100);
 float destLatRad = ToRad(destLat/100);
-}
+
+float longDiff = destLongRad - currentLongRad; 
+float latDiff = destLatRad - currentLatRad;
+
+float a = pow(sin(latDiff/2),2)+cos(currentLatRad)*cos(destLatRad)*pow(sin(longDiff/2),2);
+double c = 2 * atan2(sqrt(a), sqrt(1 - a));
+return EARTH_RADIUS * c;
+}	
 
