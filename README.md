@@ -15,7 +15,7 @@ The trajectory of the distance traveled must adhere to the following criteria:
 1. Total distance: The distance between the start and end points should be greater than 100 meters.
 2. Path shape: The path followed from the start point to the end point should resemble a non-straight line.
 
-## Author
+## Authors
 - Leader: [Ahmed Salah](https://github.com/Ahmed-Salah-312)
 - [Youssef Wael](https://github.com/youssefashmawy)
 - [Muhammad Mahmoud](https://github.com/skipcl4ss)
