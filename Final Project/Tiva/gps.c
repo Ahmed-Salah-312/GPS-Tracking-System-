@@ -4,7 +4,8 @@
 
 char GPS_logName[] ="$GPRMC,";
 char dummy;
-
+char lat[15];
+char longi[15];
 
 void GPS_read(void){
 
@@ -35,3 +36,36 @@ do{
 		dummy = UART5_Read(); 
 	}
 }while(flag==0);
+for(counter1=0 ; counter1<15 ;counter1++){
+	recievedChar = UART5_Read();
+  if(recievedChar == ','){
+		dummy = UART5_Read();
+		dummy = UART5_Read();
+		break ;
+	}
+  lat[counter1] = recievedChar;
+ }
+
+	for(counter2=0 ; counter2<15 ;counter2++){
+	recievedChar = UART5_Read();
+  if(recievedChar == ','){
+		break;
+	}
+  longi[counter2] = recievedChar;
+  }
+
+
+}
+
+float GPSlat(void){
+	float x;
+	x = atof(lat);
+  return x;	
+}
+
+float GPSlong(void){
+	float y;
+  y = atof(longi);
+  return y;	
+}
+
